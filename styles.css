@@ -91,6 +91,7 @@ color: black;
   
   .dropdown:hover .dropdown-content {
     display: block;
+
   }
   
   .dropbtn {
@@ -110,7 +111,7 @@ color: black;
   .dropdown-content a:hover {background-color: #473c3c;}
   
   .dropdown:hover .dropbtn {
-    background-color: #df0000;
+    background-color: #204, 195, 180;
   }
 
 
