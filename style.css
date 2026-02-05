@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.beginTitel {
+    background-color: rgb(65, 72, 51);
+    padding: 20px 20px;
+}
+
+.beginTitel a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+nav {
+    position: fixed;
+    /* padding: 20px 20px; */
+    padding: 5px;
+    background-color: rgb(101, 109, 74);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 10px;
+    
+    width: 100vw;
+    left: 0;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    /* transition: all 1.0s ease; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.current-page {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.notCurrent-page {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(177, 185, 150);
+    min-width: 160px;
+    z-index: 1;
+}
+
+
+.dropdown-Content a:hover {
+    background-color: rgb(101, 109, 74);
+}
+
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    margin: 0;
+}
+
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.buttonProducten {
+    background-color: transparent;
+}
+
+
+.dropbtn {
+
+    font-size: 1rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    line-height: normal;
+    transition: all 0.6s ease;
+}
+
+
+
+
+
+
+.tekstHome h1 {
+    text-align: left;
+    padding-left: 450px;
+    font-weight: bold;
+
+}
+
+.tekstHome h3 {
+    text-align: left;
+    padding-left: 300px;
+    font-weight: normal;
+    max-width: 700px;
+}
+
+.bekijkProducten {
+    text-align: left;
+    margin-left: 550px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.bekijkProducten button {
+    background-color: rgb(101, 109, 74);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
+.fotoGalerij1 img {
+    float: left;
+    height: 40%;
+    width: 33.33%;
+    padding-top: 10vh;
+    object-fit: cover;
+    overflow: hidden;
+    margin-left: 225px;
+}
+
+
+.fotoGalerij2 img {
+    float: right;
+    height: 40%;
+    width: 33.33%;
+    padding-top: 10vh;
+    object-fit: cover;
+    overflow: hidden;
+    margin-right: 225px;
+}
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgb(87, 72, 55);
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerLinks,
+.footerMidden,
+.footerRechts {
+    min-width: 200px;
+}
+
+.copyright {
+    margin-top: 50px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    padding: 5px;
+}
+
+.footer a:hover {
+    color: black;
+}
+
+.verjaardag {
+    color: white;
+    text-decoration: none;
+}
+
+.geboorte {
+    color: white;
+    text-decoration: none;
+}
+
+.trouwen {
+    color: white;
+    text-decoration: none;
+}
+
+.foto img {
+    width: 100vw;
+    height: 45%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.foto {
+    overflow: hidden;
+}

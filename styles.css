@@ -1,129 +1,76 @@
-
-
-nav {
-text-align: center
-}
-
-.current-page {
-text-decoration:none;
-font-weight: bold;
-color: black;
-}
-
-.notCurrent-page {
-text-decoration: none;
-color: black;
-}
-
-
-.footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    background-color: rgb(87, 72, 55);
-    color: white;
-    padding: 20px;
-    margin-left: -10px;
-    margin-right: -10px;
-    position: sticky;
-}
-
-.footerLinks,
-.footerMidden,
-.footerRechts {
-    min-width: 200px;
-}
-
-.copyright {
-    margin-top: 50px;
-
-}
-.footer ul {
-    list-style: none;
-    padding: 0;
-    
-}
-
-.footer li {
-    padding: 5px;
-}
-
-.footer a:hover {
-    color:black;
-}
-
-.verjaardag {
-    color: white;
-    text-decoration: none;
-}
-
-.geboorte {
-    color: white;
-    text-decoration: none;
-}
-
-.trouwen {
-    color: white;
-    text-decoration: none;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    
-  }
-  
-.dropdown .dropbtn {
-    background-color: rgb(204, 195, 180);
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-
-  }
-  
-  .dropbtn {
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #473c3c;}
-  
-  .dropdown:hover .dropbtn {
-    background-color: #204, 195, 180;
-  }
-
-
   .TopNav {
-    text-align: center;
-    display: block;
-    background-color: rgb(204, 195, 180);
-    border-radius: 10px;
-    padding: 30px;
-}
+      text-align: center;
+      display: block;
+      background-color: rgb(204, 195, 180);
+      padding: 10px; 
+  }
 
-.BeginTitel {
-    text-align: center;
-    background-color: rgb(204, 195, 180);
+  .BeginTitel {
+      text-align: center;
+      background-color: rgb(204, 195, 180);
+      width: 100%;
+      
 }
+  .current-page {
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+  }
+
+  .notCurrent-page {
+      text-decoration: none;
+      color: black;
+  }
+
+
+  .footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      background-color: rgb(87, 72, 55);
+      color: white;
+      padding: 20px;
+      margin-left: -10px;
+      margin-right: -10px;
+      position: sticky;
+  }
+
+  .footerLinks,
+  .footerMidden,
+  .footerRechts {
+      min-width: 200px;
+  }
+
+  .copyright {
+      margin-top: 50px;
+
+  }
+
+  .footer ul {
+      list-style: none;
+      padding: 0;
+
+  }
+
+  .footer li {
+      padding: 5px;
+  }
+
+  .footer a:hover {
+      color: black;
+  }
+
+  .verjaardag {
+      color: white;
+      text-decoration: none;
+  }
+
+  .geboorte {
+      color: white;
+      text-decoration: none;
+  }
+
+  .trouwen {
+      color: white;
+      text-decoration: none;
+  }
